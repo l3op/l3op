@@ -1,4 +1,4 @@
-### Hi there 👋, I'm l3op. Thanks for viewing my profile! Don't forget to check my repos 😄
+### Hi there 👋, I'm Lucas. Thanks for viewing my profile 😄😛
 
 <!--
 **l3op/l3op** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
