@@ -1,7 +1,7 @@
 <img src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&show_icons=true&theme=dark&bg_color=ffffff00&hide_border=true" alt="GitHub Stats" align="right" />
 
 ## About me
-Hi there, I'm Abduqlader Alhabeel. AKA Lucas. a :palestinian_territories: resident in :saudi_arabia: 
+Hi there, I'm Abduqlader Alhabeel. AKA *Lucas*. a :palestinian_territories: resident in :saudi_arabia:.
 
 - :student: I’m currently a student at AOU.
 - :nerd_face: Looking for cool project to help and learn with.
