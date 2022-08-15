@@ -3,12 +3,12 @@
 ## About me
 Hi there, I'm Abduqlader Alhabeel. AKA Lucas. a :palestinian_territories: resident in :saudi_arabia: 
 
-- :student: I’m currently a student.
-- :nerd_face: Looking for cool project to help and learn with!
-- :video_game: COD Mobile player!
+- :student: I’m currently a student at AOU.
+- :nerd_face: Looking for cool project to help and learn with.
+- :video_game: COD Mobile player!.
+- :hand_over_mouth: Hackintosh user.
 
-
-## Contact me 
+## How to reach me
 [![Whatsapp Badge](https://badges.aleen42.com/src/whatsapp.svg)](https://wa.me/966596896980)
 [![Instagram Badge](https://badges.aleen42.com/src/instagram.svg)](https://instagram.com/l3op) 
 [![Snapchat Badge](https://badges.aleen42.com/src/snapchat.svg)](https://snapchat.com/add/il3op)
