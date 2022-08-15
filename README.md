@@ -1,11 +1,13 @@
 <img src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&show_icons=true&theme=dark&bg_color=ffffff00&hide_border=true" alt="GitHub Stats" align="right" />
 
 ## About me
-Hi there 👋, 
-I'm Abduqlader Alhabeel. AKA Lucas.
+Hi there, I'm Abduqlader Alhabeel. AKA Lucas. a :palestinian_territories: resident in :saudi_arabia: 
 
-- 🌱 I’m currently a student.
-- 🤓 Looking for cool project to help and learn with!
+- :student: I’m currently a student.
+- :nerd_face: Looking for cool project to help and learn with!
+- :video_game: COD Mobile player!
+
+
 ## contact me 
 [![Whatsapp Badge](https://badges.aleen42.com/src/whatsapp.svg)](https://wa.me/966596896980)
 [![Instagram Badge](https://badges.aleen42.com/src/instagram.svg)](https://instagram.com/l3op) 
