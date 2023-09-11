@@ -4,7 +4,8 @@
 
 ## About me
   Hi there, I'm Abduqlader Alhabeel. AKA *Lucas*. a :palestinian_territories: resident in :saudi_arabia:.
-An IT pre-graduate student and Technician with +8 years of experience in setting up computers, networks, programming, computer hardware maintenance, skilled Linux administrator, penetration tester and Full Stack Developer
+  
+  An IT pre-graduate student and Technician with +8 years of experience in setting up computers, networks, programming, computer hardware maintenance, skilled Linux administrator, penetration tester and Full Stack Developer
 
   I’m currently a student at AOU and Coffe lover.
   Looking for cool project to help and learn with.
