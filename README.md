@@ -26,7 +26,7 @@
 - Data Analysis
 - Programming
 - Networks
-- Penetration Test
+- Penetration Test 
 - Robotics
 - Virtual machines
 - Virtualization
@@ -34,8 +34,5 @@
 
 ## Contact me
 [![Whatsapp Badge](https://badges.aleen42.com/src/whatsapp.svg)](https://wa.me/966596896980)
-[![Instagram Badge](https://badges.aleen42.com/src/instagram.svg)](https://instagram.com/l3op) 
-[![Snapchat Badge](https://badges.aleen42.com/src/snapchat.svg)](https://snapchat.com/add/il3op)
 [![Telegram Badge](https://badges.aleen42.com/src/telegram.svg)](https://t.me/s/il3op) 
-[![Reddit Badge](https://badges.aleen42.com/src/reddit.svg)](https://reddit.com/u/l3op)
 [![Discord_Badge](https://badges.aleen42.com/src/discord.svg)](https://discordapp.com/users/226101430216425473/)
