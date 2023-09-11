@@ -1,3 +1,5 @@
+# A brief story about me
+
 <img src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&show_icons=true&theme=dark&bg_color=ffffff00&hide_border=true" alt="GitHub Stats" align="right" />
 
 ## About me
