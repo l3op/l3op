@@ -35,17 +35,17 @@ Looking for cool projects to help and learn with.
 
 ## Intreset
 - Articial intelligence (AI)
+- Clouding Computing
 - Data Analysis
-- Programming
 - Networks
-- Penetration Test 
+- Penetration Test
+- Programming
 - Robotics
 - Virtual machines
 - Virtualization
-- Clouding Computing
 
 ## Contact me
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white "LinkedIn")](https://www.linkedin.com/in/abdulqader-alhabeel/)
-[![Whatsapp Badge](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white "Whatsapp")](https://wa.me/966596896980)
-[![Telegram Badge](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white "Telegram")](https://t.me/s/il3op) 
 [![Discord_Badge](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white "Discord")](https://discordapp.com/users/226101430216425473/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white "LinkedIn")](https://www.linkedin.com/in/abdulqader-alhabeel/)
+[![Telegram Badge](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white "Telegram")](https://t.me/s/il3op) 
+[![Whatsapp Badge](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white "Whatsapp")](https://wa.me/966596896980)
