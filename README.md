@@ -41,7 +41,7 @@ Looking for cool projects to help and learn with.
 
 ## Intreset
 - Articial intelligence (AI)
-- Clouding Computing
+- Cloud Computing
 - Data Analysis
 - Networks
 - Penetration Test
