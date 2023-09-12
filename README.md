@@ -1,8 +1,10 @@
 # A brief story about me 
-
-<img src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=dark#gh-dark-mode-only" alt="GitHub Stats" align="right" />
-
-<img src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=default#gh-light-mode-only" alt="GitHub Stats" align="right" />
+<a href="https://github.com/l3op/github-readme-stats#gh-dark-mode-only">
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=dark#gh-dark-mode-only" />
+</a>
+<a href="https://github.com/l3op/github-readme-stats#gh-light-mode-only">
+  <img height=200 align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=default#gh-light-mode-only" />
+</a>
 
 ## About me
 Hi there, I'm Abduqlader Alhabeel. AKA *Lucas*. a :palestinian_territories: resident in :saudi_arabia:.
