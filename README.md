@@ -1,6 +1,6 @@
 # A brief story about me 
 <a href="https://github.com/l3op/github-readme-stats#gh-dark-mode-only">
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=dark#gh-dark-mode-only" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark_dimmed#gh-dark-mode-only" />
 </a>
 <a href="https://github.com/l3op/github-readme-stats#gh-light-mode-only">
   <img height=200 align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=default#gh-light-mode-only" />
