@@ -17,7 +17,7 @@ I’m currently a student at AOU and Coffe lover.
 Looking for cool projects to help and learn with.
 
 <div>
-  <img src="https://komarev.com/ghpvc/?username=l3op" alt=""/>
+  <img onclick="return onimgclick(event)" src="https://komarev.com/ghpvc/?username=l3op" alt="Profile views" />
 </div> 
 
 ## Skills
