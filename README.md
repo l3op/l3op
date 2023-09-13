@@ -1,11 +1,11 @@
 # A brief story about me 
 
-<!--<a href="https://github.com/l3op/l3op#gh-dark-mode-only" >
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark_dimmed#gh-dark-mode-only" />
+<a href="https://github.com/l3op/l3op#gh-dark-mode-only" >
+  <img align="right" src="https://github-readme-stats-l3op.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark_dimmed#gh-dark-mode-only" />
 </a>
 <a href="https://github.com/l3op/l3op#gh-light-mode-only" >
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=default#gh-light-mode-only" />
-</a> -->
+  <img align="right" src="https://github-readme-stats-l3op.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=default#gh-light-mode-only" />
+</a>
 
 ## About me
 Hi there, I'm Abduqlader Alhabeel. AKA *Lucas*. a :palestinian_territories: resident in :saudi_arabia:.
@@ -30,12 +30,12 @@ Looking for cool projects to help and learn with.
 | Software |  [![](https://img.shields.io/badge/java-%23ED8B00.svg?logo=openjdk&logoColor=white "Java")](#---) [![](https://img.shields.io/badge/lua-%232C2D72.svg?&logo=lua&logoColor=white "Lua")](#---) [![](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white "PHP")](#---) [![](https://img.shields.io/badge/python-3670A0?&logo=python&logoColor=ffdd54 "Python")](#---) [![](https://img.shields.io/badge/shell_script-%23121011.svg?&logo=gnu-bash&logoColor=white "Shell - Bash")](#---) |
 | Web |  [![](https://img.shields.io/badge/css3-%231572B6.svg?&logo=css3&logoColor=white "CSS3")](#---) [![](https://img.shields.io/badge/ESLint-4B3263?logo=eslint&logoColor=white "ESLint")](#---) [![](https://img.shields.io/badge/html5-%23E34F26.svg?&logo=html5&logoColor=white "HTML5")](#---) [![](https://img.shields.io/badge/javascript-%23323330.svg?&logo=javascript&logoColor=%23F7DF1E "JavaScript")](#---) [![](https://img.shields.io/badge/markdown-%23000000.svg?&logo=markdown&logoColor=white "Markdown")](#---) [![](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white "TailwindCSS")](#---) [![](https://img.shields.io/badge/typescript-%23007ACC.svg?&logo=typescript&logoColor=white "TypeScript")](#---) [![](https://img.shields.io/badge/vuejs-%2335495e.svg?logo=vuedotjs&logoColor=%234FC08D "Vue")](#---) |
 
-<!-- <a href="https://github.com/l3op/l3op#gh-dark-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=l3op&langs_count=19&layout=compact&theme=github_dark_dimmed#gh-dark-mode-only" />
+<a href="https://github.com/l3op/l3op#gh-dark-mode-only">
+  <img align="center" src="https://github-readme-stats-l3op.vercel.app/api/top-langs/?username=l3op&langs_count=19&layout=compact&theme=github_dark_dimmed#gh-dark-mode-only" />
 </a>
 <a href="https://github.com/l3op/l3op#gh-light-mode-only">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=l3op&langs_count=20&layout=compact&theme=default#gh-light-mode-only" />
-</a> -->
+  <img align="center" src="https://github-readme-stats-l3op.vercel.app/api/top-langs/?username=l3op&langs_count=20&layout=compact&theme=default#gh-light-mode-only" />
+</a>
 
 ## Intreset
 - Artificial intelligence (AI)
