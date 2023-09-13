@@ -1,9 +1,10 @@
 # A brief story about me 
-<a href="https://github.com/l3op/l3op#gh-dark-mode-only" style="visibility: hidden;">
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark_dimmed#gh-dark-mode-only" style="visibility: hidden;"/>
+
+<a href="https://github.com/l3op/l3op#gh-dark-mode-only" style="visibility:hidden">
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark_dimmed#gh-dark-mode-only" style="visibility:hidden"/>
 </a>
-<a href="https://github.com/l3op/l3op#gh-light-mode-only" style="visibility: hidden;">
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=default#gh-light-mode-only" style="visibility: hidden;"/>
+<a href="https://github.com/l3op/l3op#gh-light-mode-only" style="visibility:hidden">
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=default#gh-light-mode-only" style="visibility:hidden"/>
 </a>
 
 ## About me
