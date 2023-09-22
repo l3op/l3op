@@ -16,6 +16,8 @@ I’m currently a student at AOU and Coffe lover.
 
 Looking for cool projects to help and learn with.
 
+Check out my [resume](https://github.com/l3op/l3op/files/12703480/Abdulqader.Alhabeel.-.Resume.pdf) !
+
 <div>
   <img src="https://komarev.com/ghpvc/?username=l3op" alt="Profile views" />
 </div> 
