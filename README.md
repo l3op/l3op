@@ -1,4 +1,4 @@
-# A brief story about me 
+<h1 align="center">Hey fellas <img src="https://github.com/l3op/l3op/assets/12974004/3a2a4c0c-3e67-42be-9339-d352688e398a" width="32px"hight="32px"/></h1>
 
 <a href="https://github.com/l3op/l3op#gh-dark-mode-only" >
   <img align="right" src="https://github-readme-stats-l3op.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark_dimmed#gh-dark-mode-only" />
@@ -8,13 +8,11 @@
 </a>
 
 ## About me
-Hi there, I'm Abduqlader Alhabeel. AKA *Lucas*. a :palestinian_territories: resident in :saudi_arabia:.
+I'm Abduqlader Alhabeel. AKA *Lucas*. a :palestinian_territories: resident in :saudi_arabia:.
 
 An IT pre-graduate student and Technician with +8 years of experience in setting up computers, networks, programming, computer hardware maintenance, skilled Linux administrator, penetration tester and Full Stack Developer.
 
-I’m currently a student at AOU and Coffe lover.
-
-Looking for cool projects to help and learn with.
+I’m currently a student at AOU and coffe lover. Looking for cool projects to help and learn with!
 
 Check out my [resume](https://github.com/l3op/l3op/files/12703480/Abdulqader.Alhabeel.-.Resume.pdf) !
 
