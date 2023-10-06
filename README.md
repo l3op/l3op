@@ -1,4 +1,4 @@
-<h1 align="center">Hey fellas<img src="https://github.com/l3op/l3op/assets/12974004/3a2a4c0c-3e67-42be-9339-d352688e398a" width="32px"hight="32px"/>!</h1>
+<h1 align="center">Hey fellas <img src="https://github.com/l3op/l3op/assets/12974004/3a2a4c0c-3e67-42be-9339-d352688e398a" width="32px"hight="32px"/>!</h1>
 
 <a href="https://github.com/l3op/l3op#gh-dark-mode-only" >
   <img align="right" src="https://github-readme-stats-l3op.vercel.app/api?username=l3op&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark_dimmed#gh-dark-mode-only" />
