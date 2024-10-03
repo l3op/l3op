@@ -8,13 +8,14 @@
 </a>
 
 ## About me
-I'm Abduqlader Alhabeel. AKA *Lucas*. a :palestinian_territories: resident in :saudi_arabia:.
+I'm Abduqlader Alhabeel. AKA *Lucas*. a **Palestinian** :palestinian_territories: resident in **Saudi Arabia** :saudi_arabia:.
 
 An IT pre-graduate student and Technician with +8 years of experience in setting up computers, networks, programming, computer hardware maintenance, skilled Linux administrator, penetration tester and Full Stack Developer.
 
 I’m currently a student at AOU and coffe lover. Looking for cool projects to help and learn with!
 
-Check out my [resume](https://github.com/user-attachments/files/16082896/Abdulqader-Alhabeel-Resume-updated.pdf) !
+Check out my [resume](https://github.com/user-attachments/files/17245341/Abdulqader-Alhabeel-Resume-v3.pdf) !
+
 
 
 <div>
@@ -48,9 +49,3 @@ Check out my [resume](https://github.com/user-attachments/files/16082896/Abdulqa
 - Robotics
 - Virtual machines
 - Virtualization
-
-## Contact me
-[![Discord_Badge](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white "Discord")](https://discordapp.com/users/226101430216425473/)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white "LinkedIn")](https://www.linkedin.com/in/abdulqader-alhabeel/)
-[![Telegram Badge](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white "Telegram")](https://t.me/s/il3op) 
-[![Whatsapp Badge](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white "Whatsapp")](https://wa.me/966596896980)
