@@ -1,0 +1,17 @@
+{
+  "Metadata": {
+    "title": ""
+  },
+  "Manifest": {
+    "name": ""
+  },
+  "NotFoundPage": {
+    "title": "الصفحة غير موجودة",
+    "backToHome": "العودة إلى الصفحة الرئيسية"
+  },
+  "HomePage": {
+    "about": "نبذه عننا",
+    "title": "مرحبا بالعالم!",
+    "description": "أهلا بك في موقعنا"
+  }
+}

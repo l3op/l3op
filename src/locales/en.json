@@ -1,0 +1,17 @@
+{
+  "Metadata": {
+    "title": ""
+  },
+  "Manifest": {
+    "name": ""
+  },
+  "NotFoundPage": {
+    "title": "Not found",
+    "backToHome": "Back To Home"
+  },
+  "HomePage": {
+    "about": "About us",
+    "title": "Hello World!",
+    "description": "Welcome to our website"
+  }
+}
