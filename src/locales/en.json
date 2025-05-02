@@ -1,9 +1,12 @@
 {
   "Metadata": {
-    "title": ""
+    "title": "Lucas"
   },
-  "Manifest": {
-    "name": ""
+  "OpenGraphImage": {
+    "title": "Test"
+  },
+  "TwitterImage": {
+    "title": "Twitter"
   },
   "NotFoundPage": {
     "title": "Not found",

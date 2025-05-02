@@ -1,9 +1,12 @@
 {
   "Metadata": {
-    "title": ""
+    "title": "لوكاس"
   },
-  "Manifest": {
-    "name": ""
+  "OpenGraphImage": {
+    "title": "تجربة"
+  },
+  "TwitterImage": {
+    "title": "تويتر"
   },
   "NotFoundPage": {
     "title": "الصفحة غير موجودة",
