@@ -1,20 +1,31 @@
 {
-  "Metadata": {
-    "title": "Lucas"
+  "Manifest": {
+    "name": "Lucas",
+    "description": "My Personal page",
+    "keywords": "Next.js, i18n, internationalization, Arabic, Chinese, Spanish, Japanese, multilingual, template, starter template, shadcn UI, RTL support"
   },
-  "OpenGraphImage": {
-    "title": "Test"
-  },
-  "TwitterImage": {
-    "title": "Twitter"
-  },
-  "NotFoundPage": {
-    "title": "Not found",
-    "backToHome": "Back To Home"
-  },
-  "HomePage": {
-    "about": "About us",
-    "title": "Hello World!",
-    "description": "Welcome to our website"
+  "Pages": {
+    "NotFoundPage": {
+      "title": "Not found",
+      "backToHome": "Back To Home",
+      "meta": {
+        "title": "Page not found | Lucas"
+      }
+    },
+    "HomePage": {
+      "title": "Hello World!",
+      "about": "About me",
+      "meta": {
+        "title": "Home | Lucas",
+        "description": "My personal page"
+      }
+    },
+    "AboutMePage": {
+      "title": "Hello",
+      "meta": {
+        "title": "About me",
+        "description": "About me"
+      }
+    }
   }
 }

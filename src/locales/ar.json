@@ -1,20 +1,31 @@
 {
-  "Metadata": {
-    "title": "لوكاس"
+  "Manifest": {
+    "name": "لوكاس",
+    "description": "صفحتي الشخصية",
+    "keywords": "Next.js, i18n, تدويل, عربي, صيني, إنجليزي, إسباني, ياباني, متعدد اللغات, قالب, واجهة shadcn, دعم RTL"
   },
-  "OpenGraphImage": {
-    "title": "تجربة"
-  },
-  "TwitterImage": {
-    "title": "تويتر"
-  },
-  "NotFoundPage": {
-    "title": "الصفحة غير موجودة",
-    "backToHome": "العودة إلى الصفحة الرئيسية"
-  },
-  "HomePage": {
-    "about": "نبذه عننا",
-    "title": "مرحبا بالعالم!",
-    "description": "أهلا بك في موقعنا"
+  "Pages": {
+    "NotFoundPage": {
+      "title": "الصفحة غير موجودة",
+      "backToHome": "العودة إلى الصفحة الرئيسية",
+      "meta": {
+        "title": "الصفحة غير متوفرة | لوكاس"
+      }
+    },
+    "HomePage": {
+      "title": "مرحبا بالعالم!",
+      "about": "نبذه عني",
+      "meta": {
+        "title": "الرئيسية | لوكاس",
+        "description": "صفحتي الشخصية"
+      }
+    },
+    "AboutMePage": {
+      "title": "مرحبا",
+      "meta": {
+        "title": "نبذة عني",
+        "description": "نبذة عني"
+      }
+    }
   }
 }
