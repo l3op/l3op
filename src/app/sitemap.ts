@@ -5,6 +5,7 @@ import { getPathname } from '@/i18n/navigation';
 
 const baseUrl = "https://l3op.vercel.app";
 type Href = Parameters<typeof getPathname>[0]['href'];
+const lastModified = new Date().toISOString().split("T")[0];
 
 function getUrl(href: Href, locale: Locale) {
   const pathname = getPathname({ locale, href });
@@ -14,8 +15,8 @@ function getUrl(href: Href, locale: Locale) {
 function getEntries(href: Href) {
   return routing.locales.map((locale) => ({
     url: getUrl(href, locale),
-    lastModified: new Date(),
-    priority: 1,
+    lastModified: lastModified,
+    priority: 0.7,
     alternates: {
       languages: Object.fromEntries(
         routing.locales.map((cur) => [cur, getUrl(href, cur)])
@@ -25,5 +26,13 @@ function getEntries(href: Href) {
 }
 
 export default function RootSitemap(): MetadataRoute.Sitemap {
-  return getEntries('/');
+  return [{
+    url: baseUrl,
+    lastModified: lastModified,
+    changeFrequency: "yearly",
+    priority: 1,
+  },
+  ...getEntries('/'),
+  ...getEntries('/about-me'),
+  ];
 }
