@@ -1,15 +1,15 @@
 {
   "Manifest": {
     "name": "Lucas",
-    "description": "My Personal page",
+    "description": "My Personal Page",
     "keywords": "Next.js, i18n, internationalization, Arabic, Chinese, Spanish, Japanese, multilingual, template, starter template, shadcn UI, RTL support"
   },
   "Pages": {
     "NotFoundPage": {
-      "title": "Not found",
+      "title": "Not Found",
       "backToHome": "Back To Home",
       "meta": {
-        "title": "Page not found | Lucas"
+        "title": "Page Not Found | Lucas"
       }
     },
     "HomePage": {
@@ -17,14 +17,14 @@
       "about": "About me",
       "meta": {
         "title": "Home | Lucas",
-        "description": "My personal page"
+        "description": "My Personal Page"
       }
     },
     "AboutMePage": {
       "title": "Hello",
       "meta": {
-        "title": "About me",
-        "description": "About me"
+        "title": "About Me",
+        "description": "About Me"
       }
     }
   }
