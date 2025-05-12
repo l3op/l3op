@@ -1,8 +1,8 @@
 "use client";
 
+import React, { useState, forwardRef, useImperativeHandle, useEffect, useCallback } from "react";
 import styles from "./Accordion.module.scss";
 import { Flex, Icon, Text, Column, Grid } from "@/components/ui";
-import React, { useState, forwardRef, useImperativeHandle, useEffect, useCallback } from "react";
 
 export interface AccordionHandle extends HTMLDivElement {
   toggle: () => void;
