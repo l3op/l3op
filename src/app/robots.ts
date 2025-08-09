@@ -6,7 +6,7 @@ export default function RootRobots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/'
     },
-    host: 'https://l3op.vercel.app',
-    sitemap: 'https://l3op.vercel.app/sitemap.xml'
+    host: process.env.NEXT_PUBLIC_WEBSITE_URL,
+    sitemap: process.env.NEXT_PUBLIC_WEBSITE_URL + "/sitemap.xml"
   };
 }

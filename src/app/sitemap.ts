@@ -1,14 +1,14 @@
 import { Locale } from 'next-intl';
 import { MetadataRoute } from "next";
+
 import { routing } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
 
-const baseUrl = "https://l3op.vercel.app";
 type Href = Parameters<typeof getPathname>[0]['href'];
 
 function getUrl(href: Href, locale: Locale) {
   const pathname = getPathname({ locale, href });
-  return baseUrl + pathname;
+  return process.env.NEXT_PUBLIC_WEBSITE_URL + pathname;
 }
 
 function getEntries(href: Href) {
@@ -27,13 +27,11 @@ function getEntries(href: Href) {
 
 export default function RootSitemap(): MetadataRoute.Sitemap {
   return [{
-    url: baseUrl,
+    url: process.env.NEXT_PUBLIC_WEBSITE_URL as string,
     lastModified: new Date(),
     changeFrequency: "yearly",
-    priority: 1,
-    alternates: { languages: { ar: baseUrl, en: baseUrl } }
+    priority: 1
   },
   ...getEntries('/'),
-  ...getEntries('/about-me'),
   ];
 }

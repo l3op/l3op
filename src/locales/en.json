@@ -1,22 +1,26 @@
 {
-  "Manifest": {
+  "Metadata": {
     "name": "Lucas",
     "description": "My Personal Page",
     "keywords": "Next.js, i18n, internationalization, Arabic, Chinese, Spanish, Japanese, multilingual, template, starter template, shadcn UI, RTL support"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About"
   },
   "Pages": {
     "NotFoundPage": {
       "title": "Not Found",
       "backToHome": "Back To Home",
       "meta": {
-        "title": "Page Not Found | Lucas"
+        "title": "Page Not Found • Lucas"
       }
     },
     "HomePage": {
       "title": "Hello World!",
       "about": "About me",
       "meta": {
-        "title": "Home | Lucas",
+        "title": "Home • Lucas",
         "description": "My Personal Page"
       }
     },

@@ -1,14 +1,21 @@
+import { useTranslations } from 'next-intl';
 import { Link } from "@/i18n/navigation";
-import { getTranslations } from "next-intl/server";
 
-export default async function LocaleNotFound() {
-  const t = await getTranslations('Pages.NotFoundPage');
+export default function LocaleNotFound() {
+  const t = useTranslations('Pages.NotFoundPage');
   return (
-    <main className="flex h-[calc(100svh-5rem)] flex-col items-center justify-center p-2 border border-dashed rounded-md">
+    <main>
       <title>{t('meta.title')}</title>
-      <div className="relative text-center max-w-md">
-        <h1 className="text-foreground mt-4 text-xl font-bold tracking-tight xl:text-2xl md">{`${t('title')} :(`}</h1>
-        <Link href="/">{t("backToHome")}</Link>
+      <div>
+        <div className="flex items-center min-h-screen px-4 py-12 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+          <div className="w-full space-y-6 text-center">
+            <div className="space-y-3">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl animate-bounce">404</h1>
+              <p>{t('title')}</p>
+            </div>
+            <Link href="/">{t("backToHome")}</Link>
+          </div>
+        </div>
       </div>
     </main>
   );

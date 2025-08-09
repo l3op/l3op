@@ -5,7 +5,7 @@ import { getTranslations } from 'next-intl/server';
 
 export default async function LocaleOpenGraphImage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'Manifest' });
+  const t = await getTranslations({ locale, namespace: 'Metadata' });
   const ogFont = await readFile(path.join(process.cwd(), 'src/fonts/og-font.ttf'));
   const ogFontBold = await readFile(path.join(process.cwd(), 'src/fonts/og-font-bold.ttf'));
   return new ImageResponse(
@@ -38,7 +38,7 @@ export default async function LocaleOpenGraphImage({ params }: { params: Promise
         <div style={{
           display: 'flex',
           flexDirection: 'column',
-          fontSize: 68,
+          fontSize: 46,
           color: 'black',
           marginTop: 20,
           lineHeight: 1,
@@ -54,7 +54,7 @@ export default async function LocaleOpenGraphImage({ params }: { params: Promise
     {
       width: 1200,
       height: 630,
-      fonts: [{ name: 'Zain', data: ogFont, weight: 400, style: 'normal' }, { name: 'Zain', data: ogFontBold, weight: 700, style: 'normal' }]
+      fonts: [{ name: 'Zain', data: ogFont, weight: 400, style: 'normal' }, { name: 'ZainBold', data: ogFontBold, weight: 700, style: 'normal' }]
     }
   );
 }
