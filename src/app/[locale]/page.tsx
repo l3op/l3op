@@ -1,5 +1,3 @@
-import styles from './page.module.css'
-
 import { Locale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
