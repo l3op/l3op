@@ -1,7 +1,7 @@
-import { Locale } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import { LocaleProps } from "@/lib/types";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
+export async function generateMetadata({ params }: LocaleProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.AboutMePage' });
   return { title: t('meta.title'), description: t('meta.description') };

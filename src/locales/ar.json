@@ -1,27 +1,22 @@
 {
   "Metadata": {
-    "name": "لوكاس",
-    "description": "صفحتي الشخصية",
-    "keywords": "Next.js, i18n, تدويل, عربي, صيني, إنجليزي, إسباني, ياباني, متعدد اللغات, قالب, واجهة shadcn, دعم RTL"
-  },
-  "navbar": {
-    "home": "البداية",
-    "about": "نبذه عني"
+    "websiteName": "لوكاس"
   },
   "Pages": {
     "NotFoundPage": {
       "title": "الصفحة غير متوفرة",
       "backToHome": "العودة إلى الصفحة الرئيسية",
       "meta": {
-        "title": "الصفحة غير متوفرة • لوكاس"
+        "title": "الصفحة غير متوفرة",
+        "description": "الصفحة عير متوفرة"
       }
     },
     "HomePage": {
       "title": "مرحبا بالعالم!",
       "about": "نبذه عني",
       "meta": {
-        "title": "الرئيسية • لوكاس",
-        "description": "صفحتي الشخصية"
+        "title": "الرئيسية",
+        "description": "الصفحة الرئيسية"
       }
     },
     "AboutMePage": {

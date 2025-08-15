@@ -1,6 +1,5 @@
 import { Locale } from 'next-intl';
 import { MetadataRoute } from "next";
-
 import { routing } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
 
@@ -27,7 +26,7 @@ function getEntries(href: Href) {
 
 export default function RootSitemap(): MetadataRoute.Sitemap {
   return [{
-    url: process.env.NEXT_PUBLIC_WEBSITE_URL as string,
+    url: process.env.NEXT_PUBLIC_WEBSITE_URL!,
     lastModified: new Date(),
     changeFrequency: "yearly",
     priority: 1

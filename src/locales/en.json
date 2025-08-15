@@ -1,27 +1,22 @@
 {
   "Metadata": {
-    "name": "Lucas",
-    "description": "My Personal Page",
-    "keywords": "Next.js, i18n, internationalization, Arabic, Chinese, Spanish, Japanese, multilingual, template, starter template, shadcn UI, RTL support"
-  },
-  "navbar": {
-    "home": "Home",
-    "about": "About"
+    "websiteName": "Lucas"
   },
   "Pages": {
     "NotFoundPage": {
       "title": "Not Found",
       "backToHome": "Back To Home",
       "meta": {
-        "title": "Page Not Found • Lucas"
+        "title": "Page Not Found",
+        "description": "Page Not Found"
       }
     },
     "HomePage": {
       "title": "Hello World!",
       "about": "About me",
       "meta": {
-        "title": "Home • Lucas",
-        "description": "My Personal Page"
+        "title": "Home",
+        "description": "Home page"
       }
     },
     "AboutMePage": {

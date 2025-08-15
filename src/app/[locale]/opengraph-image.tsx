@@ -2,8 +2,9 @@ import path from 'path';
 import { ImageResponse } from 'next/og';
 import { readFile } from 'node:fs/promises';
 import { getTranslations } from 'next-intl/server';
+import { LocaleProps } from '@/lib/types';
 
-export default async function LocaleOpenGraphImage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function LocaleOpenGraphImage({ params }: LocaleProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   const ogFont = await readFile(path.join(process.cwd(), 'src/fonts/og-font.ttf'));
@@ -47,7 +48,7 @@ export default async function LocaleOpenGraphImage({ params }: { params: Promise
           alignItems: 'center',
         }}
         >
-          <b>{t('name')}</b>
+          <b>{t('websiteName')}</b>
         </div>
       </div>
     ),

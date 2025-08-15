@@ -8,7 +8,7 @@ import { usePathname, useRouter } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 
-export default function LocaleSwitcher() {
+export function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition()
   // I18n Navigation.
   const router = useRouter()

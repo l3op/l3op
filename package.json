@@ -2,7 +2,7 @@
   "author": "Abdulqader Alhabeel <c8li@hotmail.com>",
   "description": "Abdulqader Alhabeel's personal website",
   "name": "l3op",
-  "version": "0.1.0+1",
+  "version": "0.1.1+1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
