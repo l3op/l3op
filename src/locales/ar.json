@@ -2,6 +2,16 @@
   "Metadata": {
     "websiteName": "لوكاس"
   },
+  "LanguageSwitcher": {
+    "label": "اللغة",
+    "locale": "{locale, select, ar {العربية} en {الانجليزية} other {غير معروف}}"
+  },
+  "ThemeToggle": {
+    "label": "الوضع",
+    "light": "الفاتح",
+    "dark": "الداكن",
+    "system": "تلقائي"
+  },
   "Pages": {
     "NotFoundPage": {
       "title": "الصفحة غير متوفرة",

@@ -2,6 +2,16 @@
   "Metadata": {
     "websiteName": "Lucas"
   },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "locale": "{locale, select, ar {Arabic} en {English} other {Unknown}}"
+  },
+  "ThemeToggle": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
   "Pages": {
     "NotFoundPage": {
       "title": "Not Found",

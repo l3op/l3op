@@ -2,9 +2,9 @@ import path from 'path';
 import { ImageResponse } from 'next/og';
 import { readFile } from 'node:fs/promises';
 import { getTranslations } from 'next-intl/server';
-import { LocaleProps } from '@/lib/types';
+import { MetadataProps } from '@/lib/types';
 
-export default async function LocaleOpenGraphImage({ params }: LocaleProps) {
+export default async function LocaleOpenGraphImage({ params }: MetadataProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   const ogFont = await readFile(path.join(process.cwd(), 'src/fonts/og-font.ttf'));

@@ -37,7 +37,7 @@
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar: var(--sidebar);
   --font-mono: var(--font-mono);
-  --font-sans: var(--font-cairo-sans);
+  --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
@@ -67,9 +67,9 @@
   --chart-5: oklch(0.5608 0.1348 42.0584);
   --destructive-foreground: oklch(1.0000 0 0);
   --destructive: oklch(0.1908 0.0020 106.5859);
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "Cairo", ui-monospace;
+  --font-sans: "Cairo", ui-sans-serif;
+  --font-serif: "Cairo", ui-serif;
   --foreground: oklch(0.3438 0.0269 95.7226);
   --input: oklch(0.7621 0.0156 98.3528);
   --muted-foreground: oklch(0.6059 0.0075 97.4233);
@@ -116,9 +116,9 @@
   --chart-5: oklch(0.5608 0.1348 42.0584);
   --destructive-foreground: oklch(1.0000 0 0);
   --destructive: oklch(0.6368 0.2078 25.3313);
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "Cairo", ui-monospace;
+  --font-sans: "Cairo", ui-sans-serif;
+  --font-serif: "Cairo", ui-serif;
   --foreground: oklch(0.8074 0.0142 93.0137);
   --input: oklch(0.4336 0.0113 100.2195);
   --muted-foreground: oklch(0.7713 0.0169 99.0657);
@@ -147,6 +147,8 @@
   --sidebar-primary: oklch(0.3250 0 0);
   --sidebar-ring: oklch(0.7731 0 0);
   --sidebar: oklch(0.2357 0.0024 67.7077);
+  --spacing: 0.25rem;
+  --tracking-normal: 0em;
 }
 
 @layer base {

@@ -1,8 +1,8 @@
 import { Locale } from "next-intl";
 
 /**
- * Locale  metadate props 
+ * Locale metadate props 
  * */
-export type LocaleProps = {
+export interface MetadataProps {
   params: Promise<{ locale: Locale }>;
-};
+}

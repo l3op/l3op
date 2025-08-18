@@ -1,9 +1,8 @@
-import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { LocaleProps } from "@/lib/types";
+import { MetadataProps } from "@/lib/types";
 
-export async function generateMetadata({ params }: LocaleProps): Promise<Metadata> {
+export async function generateMetadata({ params }: MetadataProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.NotFoundPage' });
   return { title: t('meta.title'), description: t('meta.description') };

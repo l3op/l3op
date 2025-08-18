@@ -1,13 +1,14 @@
 import "@/styles/globals.css";
-import { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Locale, NextIntlClientProvider, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { locales } from "@/i18n/locales";
-import { LocaleProps } from "@/lib/types";
-import { ThemeProvider } from "@/components/core/theme-provider";
+import { MetadataProps } from "@/lib/types";
+import { ThemeProvider } from "@/providers/theme-provider";
+import { ThemeToggle } from "@/components/core/theme-toggle";
+import { LocaleSwitcher } from "@/components/core/locale-switcher";
 
 const cairoSans = Cairo({
   variable: "--font-cairo-sans",
@@ -18,7 +19,7 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: LocaleProps): Promise<Metadata> {
+export async function generateMetadata({ params }: MetadataProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   return {
@@ -27,10 +28,10 @@ export async function generateMetadata({ params }: LocaleProps): Promise<Metadat
   };
 }
 
-export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: Locale }> }) {
+export default async function LocaleLayout({ children, params }: { children: React.ReactNode, params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
   //i18n Locale.
-  const currentLocale = locales.find(({ lang }) => lang === locale);
+  const currentLocale = locales.find((l) => l.lang === locale);
   const currentLocaleLang = currentLocale?.lang;
   const currentLocaleDir = currentLocale?.dir;
   // Check if the locale is available or return 404 - Not Found.
@@ -45,6 +46,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       <body>
         <NextIntlClientProvider>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem enableColorScheme>
+            <LocaleSwitcher />
+            <ThemeToggle />
             {children}
           </ThemeProvider>
         </NextIntlClientProvider>
