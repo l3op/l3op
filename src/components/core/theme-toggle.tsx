@@ -32,7 +32,7 @@ export function ThemeToggle() {
 
   if (!mounted) {
     return (
-      <Button variant="ghost" size="icon" disabled>
+      <Button variant="ghost" size="icon">
         <ThemeIcon theme={"system"} />
       </Button>
     );
