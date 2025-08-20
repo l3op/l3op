@@ -1,4 +1,4 @@
-interface locale {
+export interface locale {
   lang: string;
   name: string;
   dir: string;
