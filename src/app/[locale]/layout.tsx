@@ -1,14 +1,13 @@
 import "@/styles/globals.css";
+import { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Locale, NextIntlClientProvider, hasLocale } from "next-intl";
+import { Locale, hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { locales } from "@/i18n/locales";
 import { MetadataProps } from "@/lib/types";
-import { ThemeProvider } from "@/providers/theme-provider";
-import { ThemeToggle } from "@/components/core/theme-toggle";
-import { LocaleSwitcher } from "@/components/core/locale-switcher";
+import { Providers } from "@/providers/providers";
 
 const cairoSans = Cairo({
   variable: "--font-cairo-sans",
@@ -19,7 +18,7 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: MetadataProps) {
+export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   return {
@@ -44,13 +43,9 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   return (
     <html lang={currentLocaleLang} dir={currentLocaleDir} className={`${cairoSans.variable} antialiased`} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem enableColorScheme>
-            <LocaleSwitcher />
-            <ThemeToggle />
-            {children}
-          </ThemeProvider>
-        </NextIntlClientProvider>
+        <Providers>
+          <main>{children}</main>
+        </Providers>
       </body>
     </html>
   );
