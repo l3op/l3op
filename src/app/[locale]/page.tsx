@@ -3,10 +3,10 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { MetadataProps } from '@/lib/types';
 
-export async function generateMetadata({ params }: MetadataProps) {
+export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.HomePage' });
-  return { tittle: t('meta.title'), description: t('meta.description') };
+  return { title: t('meta.title'), description: t('meta.description') };
 }
 
 export default async function LocaleHomePage() {

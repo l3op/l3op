@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { MetadataProps } from "@/lib/types";
 
-export async function generateMetadata({ params }: MetadataProps) {
+export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Pages.AboutMePage' });
   return { title: t('meta.title'), description: t('meta.description') };
